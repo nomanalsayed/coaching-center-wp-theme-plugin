@@ -1,0 +1,41 @@
+# Ignore WordPress core files
+/wp-admin/
+/wp-includes/
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/cache/
+/wp-content/index.php
+/wp-content/plugins/*
+!/wp-content/plugins/website-manager/
+/wp-content/themes/*
+!/wp-content/themes/coaching-centre/
+
+# Ignore sensitive & environment files
+wp-config.php
+wp-config-sample.php
+local-xdebuginfo.php
+wp-cli-init.php
+wp-cli.yml
+.htaccess
+*.log
+.DS_Store
+.env
+.env.*
+
+# Ignore root-level WP files
+/index.php
+/license.txt
+/readme.html
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
